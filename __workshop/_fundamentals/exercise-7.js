@@ -11,8 +11,6 @@
 //   { name: "dave", age: 43, isAvailable: true },
 // ]
 
-// - If the provided key (in obj) is not any of the objects, return null for that value;
-
 const addValues = (arr, obj) => {
   // Insert missing solution please
 };
