@@ -3,7 +3,7 @@ const addNumbers = require("../exercise-5");
 
 // Write 3 more expect functions to test the function you just wrote.
 test("Exercise 5", () => {
-  expect(addNumbers(1, 2, 3, 4, 5)).toBe(55);
+  expect(addNumbers(1, 2, 3, 4, 5)).toBe(15);
   // add more tests here...
 });
 
