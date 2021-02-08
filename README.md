@@ -12,7 +12,7 @@
 
 ## 🦉 Lecture
 
-Lecture slides are provided as markdown files in the `__lecture` folder.
+There is no new material today. We may go over some FUNdamentals in the morning. Come to class with your questions! :)
 
 ---
 
