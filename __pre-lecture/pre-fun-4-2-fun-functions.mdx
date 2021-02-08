@@ -1,20 +1,12 @@
 # Fundamentals: Functions
 
----
-
-Functions are a Fundamental building block of JavaScript.
-
-Functions _encapsulate_ a particular task.
-
----
+Functions are a Fundamental building block of JavaScript. Functions _encapsulate_ a particular task.
 
 ## Function Parameters and Arguments
 
----
-
 ### A parameter
 
-is a variable in a function or method.
+A parameter is a variable in a function or method.
 
 ```js
 // Example
@@ -24,12 +16,10 @@ function sum(num1, num2, num3) {
 
 sum(12, 14, 76);
 ```
-
----
 
 ### An argument
 
-is the value given to a parameter when a function, or method, is called.
+An argument is the value given to a parameter when a function, or method, is called.
 
 ```js
 // Example
@@ -39,8 +29,6 @@ function sum(num1, num2, num3) {
 
 sum(12, 14, 76);
 ```
-
----
 
 What is the output of this function?
 
@@ -52,11 +40,8 @@ function f() {
 f("bye");
 ```
 
----
-
 ⚠️⚠️ Extra arguments are ignored. ⚠️⚠️
 
----
 
 ### Extra arguments vs missing arguments
 
@@ -67,14 +52,12 @@ f("bye");
   - Sometimes useful
   - But could also be a mistake
 
----
-
 ## What a function `returns`
 
 ```js
 // Example
 function foodItem() {
-  return "bacon";
+  return 'bacon';
 }
 
 console.log(someFunc());
@@ -82,7 +65,7 @@ console.log(someFunc());
 
 ---
 
-### _Defining_ a function
+## _Defining_ a function
 
 This is how we have been _defining_ (and declaring) functions up-to-now
 
@@ -92,37 +75,36 @@ function someFunc() {
 }
 ```
 
----
-
 There are 2 other ways to _define_ a function
 
+### Function expressions
+
 ```js
-const someFunc = function () {
+const someFunc = function() {
   // do something...
-};
+}
 ```
 
 This will _define_ a function expression.
 
 ⚠️ **Function expressions are NOT hoisted.**
 
----
+### Arrow functions
 
 The third way is an arrow function
 
 ```js
 const someFunc = () => {
   // do something...
-};
+}
 ```
 
 This is equivalent to the previous way of _defining_ a function.
 
 ⚠️ **It is NOT hoisted either.**
 
----
 
-### Optional Parentheses and Implicit Returns
+## Optional Parentheses and Implicit Returns
 
 Arrow functions have a couple tricks up their sleeve:
 
@@ -130,19 +112,17 @@ Arrow functions have a couple tricks up their sleeve:
 // This is one way to define an arrow function:
 let add5 = (number) => {
   return number + 5;
-};
+}
 
 // This is another way:
-let add10 = (number) => number + 10;
+// the curly braces and the word 'return' may be omitted
+// when an arrow function's only action is a return statement.
+let add10 = number => number + 10;
 ```
-
----
 
 To keep life simpler, I recommend always using parens and the `return` keyword.
 
 Just be aware of the shorter syntax, in case you encounter it in the wild.
-
----
 
 # Which function when?
 

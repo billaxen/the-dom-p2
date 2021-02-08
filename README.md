@@ -1,5 +1,21 @@
 # JavaScript - The DOM - P2
 
+## 🦊 Pre-lecture
+
+⏲️ _Estimated time required: 30~45 minutes._
+
+1. Read all of the `.md` files in `__pre-lecture`.
+2. Skim this tutorial: https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript
+3. Skim this tutorial: https://javascript.info/rest-parameters-spread
+
+---
+
+## 🦉 Lecture
+
+Lecture slides are provided as markdown files in the `__lecture` folder.
+
+---
+
 ## Setup
 
 ```
@@ -14,7 +30,9 @@ See the [README.md](./workshop/_fundamentals/README.md) for more information.
 
 ---
 
-## Exercise 1 - The Frog Race
+## ⚡ Exercises
+
+### Exercise 1 - The Frog Race
 
 <img src="./__lecture/assets/exercise-1.gif" />
 
@@ -22,7 +40,7 @@ By the end of this exercise, you will have a track, a stable of frogs that you c
 
 All of the work will be done inside of `__workshop/exercise-1/` folder. Take a few minutes to see what's in there. \_You will write the majority of your code in `app.js`.
 
-### Exercise 1.1 - Set up the track
+#### Exercise 1.1 - Set up the track
 
 1. Write a `for` loop that will generate a "lane" for each frog. Each lane should be an `li` and inside each `li` there should be a span for the lane number. There is a variable called `FROGS` in `exercise-1/app.js`. Use that to determine how many times to run the `for` loop.
 2. Each lane should be an `li`.
@@ -49,7 +67,7 @@ for (let count = 1; count <= FROGS; count++) {
 
 ![1.1](./__lecture/assets/solved_1.1.png)
 
-### Exercise 1.2 - Call in the frogs!
+#### Exercise 1.2 - Call in the frogs!
 
 We need to add our stable of frogs to the app. You will find a file called `frogstable.js` in `exercise-1/assets/`.
 
@@ -75,7 +93,7 @@ We need to add our stable of frogs to the app. You will find a file called `frog
 
 ![1.2](./__lecture/assets/solved_1.2.png)
 
-### Exercise 1.3 - Line 'em up!
+#### Exercise 1.3 - Line 'em up!
 
 We need to assign each frog to a lane.
 
@@ -87,7 +105,7 @@ We need to assign each frog to a lane.
 
 ![1.3](./__lecture/assets/solved_1.3.png)
 
-### Exercise 1.4 - Add Styling
+#### Exercise 1.4 - Add Styling
 
 1. Link the provided stylesheet (`/assets/styles.css`) in our `html` file.
 
@@ -102,7 +120,7 @@ Revisit the loop you wrote in 1.3 and
 
 ![1.4](./__lecture/assets/solved_1.4.png)
 
-### Exercise 1.5 - Track progress
+#### Exercise 1.5 - Track progress
 
 We will soon need to track each frog's progress as they hop down the track. Let's use the `racers` array to do that.
 
@@ -114,7 +132,7 @@ Revisit the loop from 1.3 and
 
 ![1.5](./__lecture/assets/solved_1.5.png)
 
-### Exercise 1.6 - Make 'em hop!
+#### Exercise 1.6 - Make 'em hop!
 
 1. Create a function called `racingFrog`. It will accept one parameter. This parameter will be a frog object from the racers array. _Put a console.log in there for testing purposes._
 
@@ -167,13 +185,13 @@ Notice that this will continue forever!! 😬
 
 ---
 
-### Exercise 1.7 - Hopping in the Browser!
+#### Exercise 1.7 - Hopping in the Browser!
 
 Examine the CSS file and determine what property you can modify to get them moving on the screen. Once you know which CSS property to modify, modify it inside of the `setInterval` callback instead of the `console.log` that announces the bounce distance.
 
 ![1.7](./__lecture/assets/solved_1.7.gif)
 
-### Exercise 1.8 - Uncooperative Frogs
+#### Exercise 1.8 - Uncooperative Frogs
 
 If you have ever seen a frog race, it isn't all that exciting. The frogs are generally not that motivated to reach the end... To that end, let's give each frog its own random delay time for the setInterval to simulate a frog waiting around between hops.
 
@@ -183,7 +201,7 @@ If you have ever seen a frog race, it isn't all that exciting. The frogs are gen
 
 ---
 
-### Exercise 1.9 - And the Winner is...
+#### Exercise 1.9 - And the Winner is...
 
 1. Create an array named `ranking`;
 2. As soon as a frog reaches the end, push it into the array.
@@ -191,11 +209,11 @@ If you have ever seen a frog race, it isn't all that exciting. The frogs are gen
 
 **Hint**: You will need to use `setInterval`...
 
-### Challenge 1
+#### Challenge 1
 
 It would be great if we could pick frogs at random from the stable, instead of simply taking them in order. See what you can change to make this happen. You will most likely need to use a `while` loop instead of a `for` loop.
 
-### Challenge 2
+#### Challenge 2
 
 The race needs some sprucing up. Make the game a more presentable! Flex those CSS muscles.
 
