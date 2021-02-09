@@ -26,7 +26,7 @@ yarn install
 
 There is a fundamentals section in the workshop. Start by completing this section before moving on to the following exercises.
 
-See the [README.md](./workshop/_fundamentals/README.md) for more information.
+See the [README.md](./__workshop/_fundamentals/README.md) for more information.
 
 ---
 
