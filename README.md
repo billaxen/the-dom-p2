@@ -156,10 +156,12 @@ const trackWidth = track.offsetWidth;
 const hopLength = Math.floor(((Math.random() * 100) / trackWidth) * 100);
 ```
 
-4. Declare a variable called `hop` and assign it a `setInterval`. This interval will the hopLength to `racer.progress` every second.
-5. Move the `hopLength` to the function inside the `setInterval`
-6. add that distance to the frog's progress
+4. Declare a variable called `hop` and assign it a `setInterval`. This interval will add hopLength to `racer.progress` every second.
+5. Move the `hopLength` declaration to the function inside the `setInterval`
+6. Add that distance to the frog's progress (`racer.progress`)
 7. Console for verification.
+
+You should end up with something like this:
 
 ```js
 const hop = setInterval(function () {
