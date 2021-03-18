@@ -2,11 +2,7 @@
 
 ## 🦊 Pre-lecture
 
-⏲️ _Estimated time required: 30~45 minutes._
-
-1. Read all of the `.md` files in `__pre-lecture`.
-2. Skim this tutorial: https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript
-3. Skim this tutorial: https://javascript.info/rest-parameters-spread
+⏲️ _not today._
 
 ---
 
