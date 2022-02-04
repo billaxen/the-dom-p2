@@ -32,7 +32,7 @@ See the [README.md](./__workshop/_fundamentals/README.md) for more information.
 
 <img src="./__lecture/assets/exercise-1.gif" />
 
-By the end of this exercise, you will have a track, a stable of frogs that you can race, and everytime you load the page, random frogs from the stable will race a predetermined distance. _Gambling is not condoned or encouraged._
+By the end of this exercise, you will have a track, a stable of frogs that you can race, and everytime you load the page, frogs from the stable will race a predetermined distance. _Gambling is not condoned or encouraged._
 
 All of the work will be done inside of `__workshop/exercise-1/` folder. Take a few minutes to see what's in there. \_You will write the majority of your code in `app.js`.
 
@@ -73,7 +73,7 @@ We need to add our stable of frogs to the app. You will find a file called `frog
 <script src="./assets/frogstable.js"></script>
 ```
 
-2. Define an empty array called `racers`. Push random frogs from the stable into this array.
+2. Define an empty array called `racers`. Push the first 3 frogs from the stable into this array.
 3. Write a `for` loop that keeps pushing frogs from `frogstable` into `racers` until we have the required number of frogs (as defined by `FROGS`).
 4. Output the racers array to the console to make sure you actually have frogs in there.
 
