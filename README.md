@@ -97,7 +97,7 @@ We need to assign each frog to a lane.
 2. Append the frog's name and racing number in the lane.
 3. Set the background color of the frog element to the color assigned to it in its object.
 
-**HINT**: Use a `forEach` loop and make use of the optional callback argument `id`. More info on [W3 Schools](https://www.w3schools.com/jsref/jsref_foreach.asp).
+**HINT**: Use a `forEach` loop and make use of the optional callback argument `index`. More info on [W3 Schools](https://www.w3schools.com/jsref/jsref_foreach.asp).
 
 ![1.3](./__lecture/assets/solved_1.3.png)
 
