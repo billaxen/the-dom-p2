@@ -127,7 +127,7 @@ Revisit the loop from 1.3 and
 1. Create a function called `racingFrog`. It will accept one parameter. This parameter will be a frog object from the racers array. _Put a console.log in there for testing purposes._
 
 ```js
-function racingFrog(racer) {
+const racingFrog = (racer) => {
   console.log("racingFrog() ", racer);
 }
 ```
@@ -154,7 +154,7 @@ const hopLength = Math.floor(((Math.random() * 100) / trackWidth) * 100);
 You should end up with something like this:
 
 ```js
-const hop = setInterval(function () {
+const hop = setInterval(() => {
   const hopLength = Math.floor(((Math.random() * 100) / trackWidth) * 100);
   // add hopLength to progress
   // add a console log to verify
