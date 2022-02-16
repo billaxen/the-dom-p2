@@ -1,17 +1,16 @@
 // Exercise 4
-//
+// 
 // Part 1 - Write
 // ---------------
-// Write a function accepts an array of objects as well as a key
-// and returns the sum of the values associated to that key in all of the array objects.
+// Write a function that accepts a string and returns the string wrapped to 40 characters per line.
+// This means you'll have to insert a newline character after
+// every 40 characters in the input string.
 //
-// e.g. count([{ name: "Bob", amount: 100 }, { name: "Josie", amount: 45 }], 'amount') returns 145
-//
-// - If any of the objects don't have that key, the function shouldn't break.
-// - If the value of that key is not a number, ignore it, The function shouldn't break.
+// - If the next character after a cut is a space, then do not display it.
+// - To represent a newline character, you can use "\n".
 
-const count = (arr, key) => {
-  // Insert missing solution please
+const wrapAfter40Chars = (paragraph) => {
+  // Your code here
 };
 
 // Part 2 - Test
@@ -21,4 +20,4 @@ const count = (arr, key) => {
 // Add some test cases in the test. The first one is done for you.
 
 // We need to export the function in order for our unit test to have access to it.
-module.exports = count;
+module.exports = wrapAfter40Chars;

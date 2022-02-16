@@ -1,17 +1,9 @@
 // We import (require) the function that we want to test.
-const count = require("../exercise-2");
+const isPalindrome = require("../exercise-3");
 
 // Write 3 more expect functions to test the function you just wrote.
-test("Exercise 2", () => {
-  expect(
-    count(
-      [
-        { name: "Bob", amount: 100 },
-        { name: "Josie", amount: 45 },
-      ],
-      "amount"
-    )
-  ).toBe(145);
+test("Exercise 3", () => {
+  expect(isPalindrome("radar")).toBe(true);
   // add more tests here...
 });
 
