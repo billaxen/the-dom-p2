@@ -1,4 +1,4 @@
-// Exercise 6
+// Exercise 3
 //
 // Part 1 - Write
 // ---------------

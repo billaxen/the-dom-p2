@@ -2,13 +2,15 @@
 //
 // Part 1 - Write
 // ---------------
-// Write a function accepts an array of values and returns a new array of values with all of the strings replaced with the word "redacted" (each value is replaced by the word 'redacted').
-// Do not redact values that are not strings.
+// Write a function accepts an array of objects as well as a key
+// and returns the sum of the values associated to that key in all of the array objects.
 //
-// e.g. redacted(["bacon", false, 42]) returns [ 'redacted', false, 42 ]
+// e.g. count([{ name: "Bob", amount: 100 }, { name: "Josie", amount: 45 }], 'amount') returns 145
 //
+// - If any of the objects don't have that key, the function shouldn't break.
+// - If the value of that key is not a number, ignore it, The function shouldn't break.
 
-const redacted = (arr) => {
+const count = (arr, key) => {
   // Insert missing solution please
 };
 
@@ -19,4 +21,4 @@ const redacted = (arr) => {
 // Add some test cases in the test. The first one is done for you.
 
 // We need to export the function in order for our unit test to have access to it.
-module.exports = redacted;
+module.exports = count;
