@@ -11,7 +11,7 @@
 // RADAR -> Yes
 // JAVASCRIPT -> No
 
-function isPalindrome(theString) {
+const isPalindrome = (theString) => {
   // Your code here
 }
 
