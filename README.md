@@ -18,19 +18,13 @@ There is no new material today. We may go over some FUNdamentals in the morning.
 yarn install
 ```
 
-## Fundamentals
-
-There is a fundamentals section in the workshop. Start by completing this section before moving on to the following exercises.
-
-See the [README.md](./__workshop/_fundamentals/README.md) for more information.
-
 ---
 
 ## ⚡ Exercises
 
 ### Exercise 1 - The Frog Race
 
-<img src="./__lecture/assets/exercise-1.gif" />
+<img src="./assets/exercise-1.gif" />
 
 By the end of this exercise, you will have a track, a stable of frogs that you can race, and everytime you load the page, frogs from the stable will race a predetermined distance. _Gambling is not condoned or encouraged._
 
@@ -61,7 +55,7 @@ for (let count = 1; count <= FROGS; count++) {
 }
 ```
 
-![1.1](./__lecture/assets/solved_1.1.png)
+![1.1](./assets/solved_1.1.png)
 
 #### Exercise 1.2 - Call in the frogs!
 
@@ -87,7 +81,7 @@ We need to add our stable of frogs to the app. You will find a file called `frog
 // console.log racers
 ```
 
-![1.2](./__lecture/assets/solved_1.2.png)
+![1.2](./assets/solved_1.2.png)
 
 #### Exercise 1.3 - Line 'em up!
 
@@ -99,7 +93,7 @@ We need to assign each frog to a lane.
 
 **HINT**: Use a `forEach` loop and make use of the optional callback argument `index`. More info on [W3 Schools](https://www.w3schools.com/jsref/jsref_foreach.asp).
 
-![1.3](./__lecture/assets/solved_1.3.png)
+![1.3](./assets/solved_1.3.png)
 
 #### Exercise 1.4 - Add Styling
 
@@ -114,7 +108,7 @@ Revisit the loop you wrote in 1.3 and
 2. add a class of `frog` to each of the frogs so that we can make use of the provided styling.
 3. Move the frog name to its own `span`, and give that span a class of `frog-name`.
 
-![1.4](./__lecture/assets/solved_1.4.png)
+![1.4](./assets/solved_1.4.png)
 
 #### Exercise 1.5 - Track progress
 
@@ -126,7 +120,7 @@ Revisit the loop from 1.3 and
 2. Set the frog's lane inside its object as well. (We'll need this later.)
 3. Verify the console.log of `racers` to validate.
 
-![1.5](./__lecture/assets/solved_1.5.png)
+![1.5](./assets/solved_1.5.png)
 
 #### Exercise 1.6 - Make 'em hop!
 
@@ -140,7 +134,7 @@ function racingFrog(racer) {
 
 2. Write a `forEach` that will call `racingFrog()` for each frog in the `racers` array.
 
-![1.6.2](./__lecture/assets/solved_1.6.2.png)
+![1.6.2](./assets/solved_1.6.2.png)
 
 Let's get back to our racingFrog() function, and add some logic that will do the folowing every second:
 
@@ -167,7 +161,7 @@ const hop = setInterval(function () {
 }, 1000);
 ```
 
-![1.6.7](./__lecture/assets/solved_1.6.7.gif)
+![1.6.7](./assets/solved_1.6.7.gif)
 
 Notice that this will continue forever!! 😬
 
@@ -175,7 +169,7 @@ Notice that this will continue forever!! 😬
 9. Once a frog reaches `100`, use `clearInterval` to stop the process.
 10. Write a message to the console, once the frog has reached the end.
 
-![1.6.10](./__lecture/assets/solved_1.6.10.gif)
+![1.6.10](./assets/solved_1.6.10.gif)
 
 ---
 
@@ -187,7 +181,7 @@ Notice that this will continue forever!! 😬
 
 Examine the CSS file and determine what property you can modify to get them moving on the screen. Once you know which CSS property to modify, modify it inside of the `setInterval` callback instead of the `console.log` that announces the bounce distance.
 
-![1.7](./__lecture/assets/solved_1.7.gif)
+![1.7](./assets/solved_1.7.gif)
 
 #### Exercise 1.8 - Uncooperative Frogs
 
