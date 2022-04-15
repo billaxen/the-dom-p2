@@ -88,7 +88,7 @@ We need to add our stable of frogs to the app. You will find a file called `frog
 We need to assign each frog to a lane.
 
 1. Use the racers array to assign each frog to a lane.
-2. Append the frog's name and racing number in the lane.
+2. Append the frog's name and racing number in the lane. (with a span)
 3. Set the background color of the frog element to the color assigned to it in its object.
 
 **HINT**: Use a `forEach` loop and make use of the optional callback argument `index`. More info on [W3 Schools](https://www.w3schools.com/jsref/jsref_foreach.asp).
