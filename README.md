@@ -59,16 +59,16 @@ for (let count = 1; count <= FROGS; count++) {
 
 #### Exercise 1.2 - Call in the frogs!
 
-We need to add our stable of frogs to the app. You will find a file called `frogstable.js` in `exercise-1/assets/`.
+We need to add our stable of frogs to the app. You will find a file called `frogStable.js` in `exercise-1/assets/`.
 
-1. Link that file in your `index.html` file. It should be added right _before_ the `app.js` file is added. This will allow the JS inside of `app.js` to have access to the contents of `frogstable.js`
+1. Link that file in your `index.html` file. It should be added right _before_ the `app.js` file is added. This will allow the JS inside of `app.js` to have access to the contents of `frogStable.js`
 
 ```html
-<script src="./assets/frogstable.js"></script>
+<script src="./assets/frogStable.js"></script>
 ```
 
 2. Define an empty array called `racers`. Push the first 3 frogs from the stable into this array.
-3. Write a `for` loop that keeps pushing frogs from `frogstable` into `racers` until we have the required number of frogs (as defined by `FROGS`).
+3. Write a `for` loop that keeps pushing frogs from `frogStable` into `racers` until we have the required number of frogs (as defined by `FROGS`).
 4. Output the racers array to the console to make sure you actually have frogs in there.
 
 ```js
@@ -76,7 +76,7 @@ We need to add our stable of frogs to the app. You will find a file called `frog
 // declare a variable called racers and assign a value of: empty array
 
 // write a for loop
-// push a frog from frogstable into racers array
+// push a frog from frogStable into racers array
 
 // console.log racers
 ```
